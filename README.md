@@ -17,8 +17,7 @@ APPStore上线测试应用
 
 部分F2C模块不能运行，否则会崩溃
 但是scipy依赖库，貌似不影响其它库运行
-比如：scikit-image 、 scikit-learn、 statsmodels 
-在测试应用中，我做了一些测试，可能正常运行。
+比如：scikit-image、scikit-learn、statsmodels 在测试应用中，我做了一些测试，可能正常运行。
 
-我把方法公开出来，希望大家可以共同完美scipy在IOS上正确运行
+我把方法公开出来，希望大家可以共同完美scipy在IOS上正确运行。
 为手机上实现AI入门基础提供帮助，推动人类人工智能的实现一大步。

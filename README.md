@@ -5,8 +5,15 @@ Fortran代码问题
 http://www.netlib.org/f2c/
 转换后的C代码运行有些问题。
 
-大部分C模块都可以运行，只有F2C模块有问题，后期慢慢修整
+大部分C模块都可以运行，只有F2C模块有问题，后期慢慢修整。
 假如您有Fortran在IOS编译的方法提供，我将非常感激您的贡献。
+
+当前scipy版本 1.2.2
+* main.m 模块导出函数
+* ScipyImporter.py 模块导入包装方法
+* scipy目录 脚本文件版本 1.2.2
+* scipylib目录  编译IOS库，ARM64格式
+* scipy_build   编译源码，只提供了F2C文件，其它C模块只提供o文件，需要可下载源码编译
 
 APPStore上线测试应用
 * CN  https://apps.apple.com/cn/app/id1471351733
